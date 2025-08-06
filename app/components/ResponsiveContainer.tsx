@@ -88,8 +88,8 @@ export function ResponsiveGrid({
   gap = 'md',
   className = '',
 }: ResponsiveGridProps) {
-  const gridCols = []
-  
+  const gridCols: string[] = []
+
   if (cols.default) gridCols.push(`grid-cols-${cols.default}`)
   if (cols.sm) gridCols.push(`sm:grid-cols-${cols.sm}`)
   if (cols.md) gridCols.push(`md:grid-cols-${cols.md}`)
