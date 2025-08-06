@@ -33,54 +33,54 @@ export default function About() {
     <section id="about" className="section-padding">
       <div className="container-max">
         <motion.div
-          className="grid lg:grid-cols-2 gap-16 items-center"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
           {/* Left Side - Image & Stats */}
-          <motion.div className="space-y-8" variants={itemVariants}>
+          <motion.div className="space-y-6 sm:space-y-8 order-2 lg:order-1" variants={itemVariants}>
             {/* Profile Card */}
             <div className="cyber-card text-center">
-              <div className="w-48 h-48 mx-auto mb-6 relative">
+              <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto mb-4 sm:mb-6 relative">
                 <div className="w-full h-full bg-gradient-cyber rounded-full p-1">
                   <div className="w-full h-full bg-dark-bg rounded-full flex items-center justify-center">
-                    <User size={80} className="text-cyber-blue" />
+                    <User size={60} className="text-cyber-blue sm:w-16 sm:h-16 md:w-20 md:h-20" />
                   </div>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-2">Poojashree K S</h3>
-              <p className="text-cyber-blue font-cyber">Software Engineer Trainee @ Cisco</p>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2">Poojashree K S</h3>
+              <p className="text-cyber-blue font-cyber text-sm sm:text-base">Software Engineer Trainee @ Cisco</p>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 xs:grid-cols-3 gap-3 sm:gap-4">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
-                  className="cyber-card text-center"
+                  className="cyber-card text-center p-3 sm:p-4"
                   variants={itemVariants}
                   whileHover={{ scale: 1.05 }}
                 >
-                  <stat.icon className="text-cyber-blue mx-auto mb-2" size={24} />
-                  <div className="text-2xl font-bold cyber-text">{stat.value}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
+                  <stat.icon className="text-cyber-blue mx-auto mb-2" size={20} />
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold cyber-text">{stat.value}</div>
+                  <div className="text-xs sm:text-sm text-gray-400">{stat.label}</div>
                 </motion.div>
               ))}
             </div>
           </motion.div>
 
           {/* Right Side - About Content */}
-          <motion.div className="space-y-6" variants={itemVariants}>
+          <motion.div className="space-y-4 sm:space-y-6 order-1 lg:order-2" variants={itemVariants}>
             <div>
-              <h2 className="text-4xl font-bold mb-4">
+              <h2 className="text-responsive-2xl font-bold mb-4">
                 About <span className="cyber-text">Me</span>
               </h2>
-              <div className="w-20 h-1 bg-gradient-cyber mb-6"></div>
+              <div className="w-16 sm:w-20 h-1 bg-gradient-cyber mb-4 sm:mb-6"></div>
             </div>
 
-            <div className="space-y-4 text-gray-300 leading-relaxed">
+            <div className="space-y-3 sm:space-y-4 text-gray-300 leading-relaxed text-sm sm:text-base">
               <p>
                 I'm a detail-oriented Software Engineer Trainee with hands-on experience in Python automation, 
                 web development, accessibility compliance, and cloud-native solutions. Currently working at 

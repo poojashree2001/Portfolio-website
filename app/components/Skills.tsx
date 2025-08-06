@@ -75,23 +75,23 @@ export default function Skills() {
     <section id="skills" className="section-padding bg-card-bg/20">
       <div className="container-max">
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-12 sm:mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-responsive-2xl font-bold mb-4">
             My <span className="cyber-text">Skills</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-cyber mx-auto mb-6"></div>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <div className="w-16 sm:w-20 h-1 bg-gradient-cyber mx-auto mb-4 sm:mb-6"></div>
+          <p className="text-responsive-base text-gray-300 max-w-2xl mx-auto px-4 sm:px-0">
             Here are the technologies and tools I work with to bring ideas to life
           </p>
         </motion.div>
 
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -100,14 +100,14 @@ export default function Skills() {
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
-              className="cyber-card"
+              className="cyber-card h-full"
               variants={itemVariants}
               whileHover={{ scale: 1.02 }}
             >
-              <h3 className="text-xl font-semibold text-cyber-blue mb-6 text-center">
+              <h3 className="text-lg sm:text-xl font-semibold text-cyber-blue mb-4 sm:mb-6 text-center">
                 {category.title}
               </h3>
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div
                     key={skill.name}
@@ -115,14 +115,14 @@ export default function Skills() {
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ 
+                    transition={{
                       delay: categoryIndex * 0.1 + skillIndex * 0.05,
-                      duration: 0.4 
+                      duration: 0.4
                     }}
                   >
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-300 font-medium">{skill.name}</span>
-                      <span className="text-cyber-blue text-sm font-cyber">
+                      <span className="text-gray-300 font-medium text-sm sm:text-base">{skill.name}</span>
+                      <span className="text-cyber-blue text-xs sm:text-sm font-cyber">
                         {skill.level}%
                       </span>
                     </div>

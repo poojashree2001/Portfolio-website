@@ -210,30 +210,30 @@ export default function Contact() {
         </motion.div>
 
         <motion.div
-          className="grid lg:grid-cols-2 gap-16"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
           {/* Contact Information */}
-          <motion.div className="space-y-8" variants={itemVariants}>
+          <motion.div className="space-y-6 sm:space-y-8" variants={itemVariants}>
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-cyber-blue">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-cyber-blue">
                 Let's Connect
               </h3>
-              <p className="text-gray-300 leading-relaxed mb-8">
-                I'm always open to discussing backend development opportunities, cybersecurity projects, 
+              <p className="text-gray-300 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base">
+                I'm always open to discussing backend development opportunities, cybersecurity projects,
                 or collaborating on secure system architectures. Let's build something secure together!
               </p>
             </div>
 
             {/* Contact Details */}
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               {contactInfo.map((info, index) => (
                 <motion.div
                   key={info.label}
-                  className="relative p-4 rounded-lg border border-border-glow hover:border-cyber-blue/50 transition-all duration-300 group overflow-hidden"
+                  className="relative p-3 sm:p-4 rounded-lg border border-border-glow hover:border-cyber-blue/50 transition-all duration-300 group overflow-hidden"
                   variants={itemVariants}
                   whileHover={{ scale: 1.02, x: 10 }}
                 >
@@ -242,15 +242,15 @@ export default function Contact() {
                     className="absolute inset-0 bg-gradient-to-r from-cyber-blue/5 to-cyber-purple/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     layoutId={`bg-${index}`}
                   />
-                  
-                  <div className="relative z-10 flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-cyber-blue/10 rounded-lg flex items-center justify-center group-hover:bg-cyber-blue/20 transition-colors duration-300">
-                        <info.icon className="text-cyber-blue" size={20} />
+
+                  <div className="relative z-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-0">
+                    <div className="flex items-center space-x-3 sm:space-x-4">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 bg-cyber-blue/10 rounded-lg flex items-center justify-center group-hover:bg-cyber-blue/20 transition-colors duration-300 flex-shrink-0">
+                        <info.icon className="text-cyber-blue" size={18} />
                       </div>
-                      <div>
-                        <div className="text-sm text-gray-400 font-cyber">{info.label}</div>
-                        <div className="text-white font-medium">{info.value}</div>
+                      <div className="min-w-0 flex-1">
+                        <div className="text-xs sm:text-sm text-gray-400 font-cyber">{info.label}</div>
+                        <div className="text-white font-medium text-sm sm:text-base break-all sm:break-normal">{info.value}</div>
                         <div className="text-xs text-gray-500 mt-1">{info.description}</div>
                       </div>
                     </div>

@@ -103,7 +103,7 @@ export default function Projects() {
         </motion.div>
 
         <motion.div
-          className="grid md:grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 sm:gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -148,26 +148,26 @@ export default function Projects() {
               </div>
 
               {/* Project Info */}
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold text-white group-hover:text-cyber-blue transition-colors duration-300">
+              <div className="space-y-3 sm:space-y-4">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                  <h3 className="text-lg sm:text-xl font-semibold text-white group-hover:text-cyber-blue transition-colors duration-300 leading-tight">
                     {project.title}
                   </h3>
-                  <span className="text-cyber-blue text-sm font-cyber bg-cyber-blue/10 px-2 py-1 rounded">
+                  <span className="text-cyber-blue text-xs sm:text-sm font-cyber bg-cyber-blue/10 px-2 py-1 rounded self-start sm:self-auto">
                     {project.category}
                   </span>
                 </div>
 
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                   {project.description}
                 </p>
 
                 {/* Tech Stack */}
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-1.5 sm:gap-2">
                   {project.tech.map((tech, techIndex) => (
                     <motion.span
                       key={tech}
-                      className="text-xs px-2 py-1 bg-dark-bg border border-border-glow rounded text-gray-300"
+                      className="text-xs px-2 py-1 bg-dark-bg border border-border-glow rounded text-gray-300 whitespace-nowrap"
                       initial={{ opacity: 0, scale: 0 }}
                       whileInView={{ opacity: 1, scale: 1 }}
                       viewport={{ once: true }}
@@ -179,12 +179,12 @@ export default function Projects() {
                 </div>
 
                 {/* Action Buttons */}
-                <div className="flex space-x-4 pt-4">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-3 sm:pt-4">
                   <motion.a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-2 text-gray-300 hover:text-cyber-blue transition-colors duration-300"
+                    className="flex items-center justify-center sm:justify-start space-x-2 text-gray-300 hover:text-cyber-blue transition-colors duration-300 min-h-[44px] sm:min-h-0 py-2 sm:py-0"
                     whileHover={{ x: 5 }}
                   >
                     <Github size={16} />
@@ -197,7 +197,7 @@ export default function Projects() {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-2 text-gray-300 hover:text-cyber-purple transition-colors duration-300"
+                      className="flex items-center justify-center sm:justify-start space-x-2 text-gray-300 hover:text-cyber-purple transition-colors duration-300 min-h-[44px] sm:min-h-0 py-2 sm:py-0"
                       whileHover={{ x: 5 }}
                     >
                       <ExternalLink size={16} />

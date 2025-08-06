@@ -66,23 +66,23 @@ export default function Hero() {
       </div>
 
       <motion.div
-        className="container-max text-center z-10"
+        className="container-max text-center z-10 px-4 sm:px-6 lg:px-8"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         {/* Greeting */}
         <motion.div
-          className="flex items-center justify-center mb-6"
+          className="flex items-center justify-center mb-4 sm:mb-6"
           variants={itemVariants}
         >
-          <Sparkles className="text-cyber-blue mr-2" size={24} />
-          <span className="text-cyber-blue font-cyber text-lg">Hello, I'm</span>
+          <Sparkles className="text-cyber-blue mr-2" size={20} />
+          <span className="text-cyber-blue font-cyber text-sm sm:text-base md:text-lg">Hello, I'm</span>
         </motion.div>
 
         {/* Name */}
         <motion.h1
-          className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
+          className="text-responsive-3xl font-bold mb-4 sm:mb-6 leading-tight"
           variants={itemVariants}
         >
           <span className="block">Poojashree</span>
@@ -91,7 +91,7 @@ export default function Hero() {
 
         {/* Title */}
         <motion.div
-          className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-8 font-light"
+          className="text-responsive-lg text-gray-300 mb-6 sm:mb-8 font-light space-y-1 sm:space-y-2"
           variants={itemVariants}
         >
           <span className="block">Software Engineer</span>
@@ -100,32 +100,32 @@ export default function Hero() {
 
         {/* Description */}
         <motion.p
-          className="text-lg text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-responsive-base text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4 sm:px-0"
           variants={itemVariants}
         >
-          Detail-oriented Software Engineer Trainee with hands-on experience in Python automation, 
-          web development, accessibility compliance, and cloud-native solutions. Certified in AWS, 
+          Detail-oriented Software Engineer Trainee with hands-on experience in Python automation,
+          web development, accessibility compliance, and cloud-native solutions. Certified in AWS,
           CCNA and Cisco DevNet with expertise in building scalable, secure, and reliable enterprise systems.
         </motion.p>
 
         {/* CTA Buttons */}
         <motion.div
-          className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12 sm:mb-16 w-full max-w-md sm:max-w-none mx-auto"
           variants={itemVariants}
         >
           <motion.a
             href="#projects"
-            className="cyber-button group"
+            className="cyber-button group w-full sm:w-auto text-center min-h-[44px] flex items-center justify-center"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Code className="inline mr-2" size={20} />
-            View My Work
+            <Code className="inline mr-2" size={18} />
+            <span className="text-sm sm:text-base">View My Work</span>
           </motion.a>
-          
+
           <motion.a
             href="#contact"
-            className="px-6 py-3 border border-cyber-blue text-cyber-blue rounded-lg font-semibold transition-all duration-300 hover:bg-cyber-blue hover:text-dark-bg group"
+            className="w-full sm:w-auto px-6 py-3 border border-cyber-blue text-cyber-blue rounded-lg font-semibold transition-all duration-300 hover:bg-cyber-blue hover:text-dark-bg group text-center min-h-[44px] flex items-center justify-center text-sm sm:text-base"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
