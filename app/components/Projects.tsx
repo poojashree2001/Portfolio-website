@@ -38,19 +38,9 @@ export default function Projects() {
       category: 'Database',
       icon: Database,
     },
+
     {
       id: 4,
-      title: 'Secure E-Commerce Microservices Platform',
-      description: 'Production-ready e-commerce platform with microservices architecture featuring JWT authentication, API Gateway, rate limiting, circuit breakers, Redis caching, and comprehensive security measures. Includes User, Product, Order, and Notification services with Docker orchestration.',
-      tech: ['FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'JWT', 'Microservices', 'API Gateway', 'Circuit Breaker', 'Rate Limiting', 'Security'],
-      image: '/api/placeholder/600/400',
-      github: 'https://github.com/poojashree-ks/secure-ecommerce-microservices',
-      live: '#',
-      category: 'Microservices',
-      icon: Globe,
-    },
-    {
-      id: 5,
       title: 'Secure Authentication System',
       description: 'JWT-based authentication with multi-factor authentication, rate limiting, and security monitoring.',
       tech: ['Node.js', 'Express.js', 'JWT', 'bcrypt', 'Redis', 'PostgreSQL'],
@@ -61,7 +51,7 @@ export default function Projects() {
       icon: Code,
     },
     {
-      id: 6,
+      id: 5,
       title: 'RESTful API with Database',
       description: 'Scalable REST API architecture with CRUD operations, input validation, and error handling.',
       tech: ['Python', 'Flask/FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Docker'],
