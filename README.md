@@ -1,4 +1,4 @@
-# Venna Venkata Siva Reddy - Portfolio 🚀
+# Poojashree - Portfolio 🚀
 
 An innovative, terminal-inspired portfolio website showcasing advanced software engineering and network security expertise.
 
