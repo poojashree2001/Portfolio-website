@@ -15,8 +15,8 @@ export default function ResumeDownload() {
     setTimeout(() => {
       // Create a link element and trigger download
       const link = document.createElement('a');
-      link.href = '/Venna_Venkata_Siva_Reddy_Resume_Updated (1).docx';
-      link.download = 'Venna_Venkata_Siva_Reddy_Resume.docx';
+      link.href = '/Poojashree_K_S_Resume.docx';
+      link.download = 'Poojashree_K_S_Resume.docx';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -28,14 +28,14 @@ export default function ResumeDownload() {
 
   const handlePreview = () => {
     // Open resume in new tab for preview
-    window.open('/Venna_Venkata_Siva_Reddy_Resume_Updated (1).docx', '_blank');
+    window.open('/Poojashree_K_S_Resume.docx', '_blank');
   };
 
   const handleShare = async () => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Venna Venkata Siva Reddy - Resume',
+          title: 'Poojashree K S - Resume',
           text: 'Check out my professional resume',
           url: window.location.href,
         });

@@ -25,7 +25,7 @@ export default function ChatBot({
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: "Hi! I'm Siva's AI assistant. I'm powered by his custom-built chatbot microservice and can tell you all about his experience, projects, and technical skills. What would you like to know?",
+      content: "Hi! I'm Poojashree's AI assistant. I can tell you all about her experience in accessibility testing, Python automation, and technical skills. What would you like to know?",
       isUser: false,
       timestamp: new Date()
     }
@@ -92,13 +92,13 @@ export default function ChatBot({
     try {
       // Enhanced fallback responses with comprehensive information
       const fallbackResponses = {
-        experience: "Siva has 2+ years of hands-on experience in backend development, specializing in Python, Node.js, and database management. He's worked with cutting-edge technologies like FastAPI, PostgreSQL, and has built several production-ready applications including this very AI chatbot you're using! His experience spans from building microservices architectures to implementing AI integrations.",
-        projects: "Siva has built several impressive projects showcasing his full-stack capabilities: 1) This AI Chatbot Microservice with Ollama integration featuring real-time WebSocket communication, 2) A comprehensive Library Management System with PostgreSQL and interactive CRUD operations, and 3) A Secure E-Commerce Microservices Platform with JWT authentication and Docker orchestration. Each project demonstrates his expertise in backend development and system architecture.",
-        skills: "His comprehensive technical skills include: **Languages**: Python, Node.js, JavaScript, TypeScript, SQL; **Frameworks**: FastAPI, Express.js, Flask, Next.js; **Databases**: PostgreSQL, SQLite, Redis; **Tools**: Docker, Podman, Git, JWT authentication; **Specializations**: Microservices architecture, AI integration with Ollama, WebSocket communication, REST API design, and database optimization.",
-        contact: "You can reach Siva through multiple channels: Use the contact form below on this portfolio, connect with him on LinkedIn, or check out his projects on GitHub. He's actively seeking backend development opportunities and is always excited to discuss innovative projects and technical challenges.",
-        ai: "This AI chatbot is one of Siva's flagship projects! It's built with Node.js, TypeScript, Express.js, and integrates with Ollama for AI responses. Features include WebSocket communication, session management, rate limiting, and it's deployed as a containerized microservice. You're experiencing his AI integration skills firsthand right now!",
-        about: "Siva is a passionate Backend Developer and Cybersecurity enthusiast with 2+ years of experience building secure, scalable server-side solutions. He specializes in microservices architecture, database optimization, and AI integrations. Currently seeking opportunities to contribute to innovative projects while continuing to grow his expertise in cutting-edge technologies.",
-        default: "Thanks for your question! I'm Siva's AI-powered assistant, showcasing his custom-built chatbot microservice. I can tell you about his experience, projects, technical skills, or how to get in touch with him. Feel free to ask about anything you'd like to know about his background or work!"
+        experience: "Poojashree has hands-on experience in Python automation, accessibility testing, and web development. As a Software Engineer Trainee at Cisco, she specializes in developing automated accessibility testing suites and ensuring WCAG and Section 508 compliance for enterprise products. Her expertise includes automation scripting, security compliance validation, and cross-functional collaboration with QA and product teams.",
+        projects: "Poojashree has built several impressive projects showcasing her technical capabilities: 1) A comprehensive Library Management System with PostgreSQL and interactive CRUD operations, 2) This portfolio website with multiple UI designs and interactive terminal navigation, and 3) Accessibility testing automation tools for enterprise compliance. Each project demonstrates her expertise in Python automation and inclusive design principles.",
+        skills: "Her comprehensive technical skills include: **Languages**: Python, HTML, CSS, JavaScript, SQL; **Frameworks**: Flask, Django, TensorFlow; **Databases**: PostgreSQL, MongoDB; **Tools**: Git, Docker, Axe accessibility testing; **Specializations**: Accessibility testing automation, WCAG compliance, Python scripting, and enterprise web development with focus on inclusive design.",
+        contact: "You can reach Poojashree through multiple channels: Use the contact form on this portfolio, connect with her on LinkedIn at linkedin.com/in/poojashree-k-s, check out her projects on GitHub, or email her at poojamanu567@gmail.com. She's actively seeking opportunities in software development with focus on accessibility and inclusive technology.",
+        ai: "This AI chatbot is part of Poojashree's portfolio showcasing her technical skills! While she focuses primarily on Python automation and accessibility testing, this interactive feature demonstrates her ability to integrate modern technologies and create engaging user experiences.",
+        about: "Poojashree is a detail-oriented Software Engineer Trainee at Cisco with expertise in Python automation, accessibility testing, and web development. She specializes in ensuring WCAG and Section 508 compliance, developing automated testing suites, and building inclusive technology solutions. She's passionate about creating accessible software that works for everyone.",
+        default: "Thanks for your question! I'm Poojashree's AI-powered assistant. I can tell you about her experience in accessibility testing, Python automation projects, technical skills, or how to get in touch with her. Feel free to ask about anything you'd like to know about her background or work!"
       }
 
       let response = fallbackResponses.default
@@ -163,7 +163,7 @@ export default function ChatBot({
       
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        content: "I apologize, but I'm having trouble connecting right now. Please feel free to explore Siva's portfolio below or use the contact form to get in touch directly!",
+        content: "I apologize, but I'm having trouble connecting right now. Please feel free to explore Poojashree's portfolio below or use the contact form to get in touch directly!",
         isUser: false,
         timestamp: new Date()
       }
@@ -241,7 +241,7 @@ export default function ChatBot({
                   <Bot size={20} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold">Siva's AI Assistant</h3>
+                  <h3 className="text-white font-semibold">Poojashree's AI Assistant</h3>
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 rounded-full bg-green-400" />
                     <p className="text-white/70 text-sm">
@@ -317,7 +317,7 @@ export default function ChatBot({
                   value={inputMessage}
                   onChange={(e) => setInputMessage(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  placeholder="Ask about Siva's experience..."
+                  placeholder="Ask about Poojashree's experience..."
                   className="flex-1 bg-gray-700 border border-gray-600 rounded-lg px-3 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-cyber-blue transition-colors"
                   disabled={isLoading}
                 />

@@ -74,7 +74,7 @@ export default function LoadingScreen({ onComplete, duration = 2000 }: LoadingSc
                   <span className="text-dark-bg font-bold text-lg">SR</span>
                 </div>
               </div>
-              <h1 className="text-2xl font-bold cyber-text">Siva Reddy</h1>
+              <h1 className="text-2xl font-bold cyber-text">Poojashree K S</h1>
               <p className="text-gray-400 text-sm mt-2">Full Stack Developer</p>
             </motion.div>
 

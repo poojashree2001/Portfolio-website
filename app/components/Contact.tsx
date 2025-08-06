@@ -113,10 +113,10 @@ export default function Contact() {
       }
 
       // Method 3: Fallback to mailto (always works)
-      const mailtoLink = `mailto:vsivareddy.venna@gmail.com?subject=${encodeURIComponent(
+      const mailtoLink = `mailto:poojamanu567@gmail.com?subject=${encodeURIComponent(
         `Portfolio Contact: ${formData.subject}`
       )}&body=${encodeURIComponent(
-        `Hi Siva,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\nBest regards,\n${formData.name}`
+        `Hi Poojashree,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\nBest regards,\n${formData.name}`
       )}`
       
       window.open(mailtoLink, '_blank')
@@ -125,7 +125,7 @@ export default function Contact() {
       setFormData({ name: '', email: '', subject: '', message: '' })
       
     } catch (error) {
-      setSubmitMessage('Failed to send message. Please contact me directly at vsivareddy.venna@gmail.com')
+      setSubmitMessage('Failed to send message. Please contact me directly at poojamanu567@gmail.com')
       setSubmitType('error')
     }
     
@@ -142,23 +142,23 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'sivareddy.venna@gmail.com',
-      href: 'mailto:sivareddy.venna@gmail.com',
-      description: 'Best way to reach me',
+      value: 'poojamanu567@gmail.com',
+      href: 'mailto:poojamanu567@gmail.com',
+      description: 'I usually respond within 24 hours',
       copyable: true,
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 9390018166',
-      href: 'tel:+919390018166',
+      value: '+91-9901002231',
+      href: 'tel:+919901002231',
       description: 'Available 9 AM - 6 PM IST',
       copyable: true,
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Hyderabad, India',
+      value: 'Bangalore, India',
       href: '#',
       description: 'Open to remote work',
       copyable: false,
@@ -166,8 +166,8 @@ export default function Contact() {
   ]
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/avis-enna', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/sivavenna', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/poojashree-ks', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/poojashree-k-s', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ]
 

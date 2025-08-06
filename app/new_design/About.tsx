@@ -21,25 +21,25 @@ export default function About() {
               <div className={`w-60 h-60 rounded-2xl mx-auto mb-8 flex items-center justify-center relative overflow-hidden transition-colors duration-300 ${isDarkMode ? 'bg-gray-900/10 border border-gray-800/30' : 'bg-gray-50 border border-gray-200'}`}>
                 <img
                   src="/profile-photo.png"
-                  alt="Venna Venkata Siva Reddy"
+                  alt="Poojashree K S"
                   width={240}
                   height={240}
                   className="object-cover transition-transform duration-300 hover:scale-105"
                   
                 />
               </div>
-              <h3 className={`text-2xl font-light mb-4 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Venna Venkata Siva Reddy</h3>
+              <h3 className={`text-2xl font-light mb-4 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Poojashree K S</h3>
               <p className={`text-sm mb-6 font-light tracking-wide transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-stone-600'}`}>
-                Software Engineer · Cisco Systems
+                Software Engineer Trainee · Cisco Systems
               </p>
               <div className="flex justify-center space-x-8 mb-8">
-                <a href="https://linkedin.com/in/sivavenna" target="_blank" rel="noopener noreferrer" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
+                <a href="https://linkedin.com/in/poojashree-k-s" target="_blank" rel="noopener noreferrer" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
                   LINKEDIN
                 </a>
-                <a href="https://github.com/avis-enna" target="_blank" rel="noopener noreferrer" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
+                <a href="https://github.com/poojashree-ks" target="_blank" rel="noopener noreferrer" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
                   GITHUB
                 </a>
-                <a href="mailto:vsivareddy.venna@gmail.com" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
+                <a href="mailto:poojamanu567@gmail.com" className={`text-xs font-light tracking-[0.15em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400 hover:text-white border-b border-transparent hover:border-white' : 'text-stone-600 hover:text-stone-800 border-b border-transparent hover:border-stone-700'}`}>
                   EMAIL
                 </a>
               </div>
@@ -49,12 +49,14 @@ export default function About() {
             <div className="lg:col-span-2">
               <div className="mb-12">
                 <p className={`text-lg leading-relaxed mb-6 transition-colors duration-300 ${isDarkMode ? 'text-gray-300' : 'text-stone-700'}`}>
-                  A results-driven Software Engineer with hands-on experience in migrating legacy systems to modern, cloud-native environments.
-                  Proven expertise in the full software development lifecycle, from backend development with Java/Spring Boot to frontend implementation with React.
+                  A detail-oriented Software Engineer Trainee with hands-on experience in Python automation, web development,
+                  accessibility compliance, and cloud-native solutions. Proven expertise in developing automated accessibility 
+                  testing suites and ensuring WCAG and Section 508 compliance for enterprise products.
                 </p>
                 <p className={`leading-relaxed transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-stone-600'}`}>
-                  Specialized in Kubernetes, Docker, and GitOps workflows using Helm and FluxCD. A proactive problem-solver with unique
-                  cross-functional experience in network engineering (CCNA) and data analytics, passionate about building scalable, mission-critical software.
+                  Specialized in automation scripting, security compliance validation, and cross-functional collaboration 
+                  with QA and product teams. Certified in AWS Cloud Practitioner, CCNA, and Cisco DevNet with expertise 
+                  in building accessible, scalable, and secure technology solutions.
                 </p>
               </div>
 
@@ -66,8 +68,8 @@ export default function About() {
                       <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
                     </svg>
                   </div>
-                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Network & Security</h4>
-                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>CCNA, CCCA certified with expertise in TCP/IP, routing, switching</p>
+                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Accessibility & Automation</h4>
+                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>Python automation, WCAG compliance, accessibility testing with Axe</p>
                 </div>
 
                 <div className={`p-6 rounded-lg border transition-colors duration-300 ${isDarkMode ? 'bg-gray-900/10 border-gray-800/30' : 'bg-gray-50 border-gray-200'}`}>
@@ -76,8 +78,8 @@ export default function About() {
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                   </div>
-                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Full Stack Development</h4>
-                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>Java Spring Boot, React, REST APIs, database design</p>
+                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Web Development</h4>
+                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>HTML, CSS, JavaScript, Flask, TensorFlow, Django frameworks</p>
                 </div>
 
                 <div className={`p-6 rounded-lg border transition-colors duration-300 ${isDarkMode ? 'bg-gray-900/10 border-gray-800/30' : 'bg-gray-50 border-gray-200'}`}>
@@ -86,8 +88,8 @@ export default function About() {
                       <path d="M21 16V4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2zM5 4h14v12H5V4z"/>
                     </svg>
                   </div>
-                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>System Administration</h4>
-                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>Linux, Windows Server, automation scripting</p>
+                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Networking & Protocols</h4>
+                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>TCP/IP, Routing & Switching, VLAN, QoS, CCNA certified</p>
                 </div>
 
                 <div className={`p-6 rounded-lg border transition-colors duration-300 ${isDarkMode ? 'bg-gray-900/10 border-gray-800/30' : 'bg-gray-50 border-gray-200'}`}>
@@ -96,8 +98,8 @@ export default function About() {
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                     </svg>
                   </div>
-                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>DevOps & Cloud</h4>
-                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>Docker, CI/CD, monitoring, infrastructure automation</p>
+                  <h4 className={`text-base font-medium mb-2 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-black'}`}>Cloud & DevOps</h4>
+                  <p className={`text-sm transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>AWS Cloud Practitioner, Docker, Git, monitoring, automation</p>
                 </div>
               </div>
             </div>

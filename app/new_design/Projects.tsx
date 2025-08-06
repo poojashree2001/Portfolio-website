@@ -22,26 +22,37 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
-      id: "log-analysis",
-      title: "Log Analysis System",
-      subtitle: "Real-time monitoring platform",
-      description: "A comprehensive log analysis and monitoring system built with Java Spring Boot, featuring real-time log processing, pattern detection, and interactive visualizations.",
-      longDescription: "Enterprise-grade log analysis platform with real-time processing capabilities. Features include pattern detection, security threat analysis, performance monitoring, and interactive dashboards. Built with microservices architecture using Spring Boot, Kafka, and Elasticsearch.",
-      technologies: ["Java 17", "Spring Boot", "Kafka", "Elasticsearch", "PostgreSQL", "Docker", "React"],
-      category: "Backend System",
+      id: "smart-glasses",
+      title: "Smart Glasses for Visually Impaired",
+      subtitle: "IoT & AI Assistive Technology",
+      description: "Designed a wearable assistive device for real-time object detection, OCR-based text reading, obstacle alerts, and voice/tactile feedback to support visually impaired users.",
+      longDescription: "Innovative IoT-based assistive device using Raspberry Pi, MobileNet SSD for object detection, OCR for text reading, and TTS for voice feedback. Features real-time obstacle detection, navigation assistance, and tactile feedback systems. Published research in TIJER International Journal, Vol. 10, Issue 4, April 2023.",
+      technologies: ["IoT", "Python", "TensorFlow", "MobileNet SSD", "CNN", "Raspberry Pi", "OCR", "TTS"],
+      category: "IoT/AI",
       image: "/api/placeholder/400/300",
-      githubUrl: "https://github.com/avis-enna/log-analysis-system"
+      githubUrl: "https://github.com/poojashree2001/Smart-glasses-project"
     },
     {
-      id: "iot-monitoring",
-      title: "IoT-Based Continuous Abiotic Factor Monitoring",
-      subtitle: "Full-Stack Application with Research Publication",
-      description: "Built, tested, and deployed a full-stack, real-world application from the ground up, applying computer science knowledge of data structures and algorithms.",
-      longDescription: "Core Technologies: Java, Spring Boot, React, SQL. Built, tested, and deployed a full-stack, real-world application from the ground up, applying computer science knowledge of data structures and algorithms. Developed the backend web service using Java & Spring Boot to expose REST APIs for data ingestion and retrieval. Created a responsive user interface using JavaScript and React to visualize real-time data. Published research paper in International Journal For Multidisciplinary Research (IJFMR), May-June 2023.",
-      technologies: ["Java", "Spring Boot", "React", "SQL", "REST APIs", "JavaScript", "Data Structures", "Algorithms"],
-      category: "Full-Stack Application",
+      id: "accessibility-testing",
+      title: "Automated Accessibility Testing Web App",
+      subtitle: "WCAG Compliance & Testing",
+      description: "Developed a Flask-based web application to test websites for WCAG 2.1 AA compliance using axe-core and BeautifulSoup4 for HTML parsing.",
+      longDescription: "Comprehensive accessibility testing platform with automated WCAG 2.1 AA compliance checking. Features Selenium for cross-browser testing, real-time reporting with severity-based violation tagging, and detailed remediation suggestions. Deployed on cloud with Gunicorn and responsive UI design.",
+      technologies: ["Python", "Flask", "Selenium", "axe-core", "BeautifulSoup4", "WCAG 2.1", "Gunicorn", "HTML/CSS"],
+      category: "Web/Accessibility",
       image: "/api/placeholder/400/300",
-      githubUrl: "#"
+      githubUrl: "https://github.com/poojashree2001/WebAccTest"
+    },
+    {
+      id: "library-management",
+      title: "Library Management System",
+      subtitle: "Database-driven application",
+      description: "Comprehensive library management system with book cataloging, member management, and advanced search functionality.",
+      longDescription: "Full-featured library management system with comprehensive book cataloging, member management, borrowing/returning functionality, and advanced search capabilities. Features automated fine calculations, reservation systems, and detailed reporting.",
+      technologies: ["Python", "Flask", "SQLite", "PostgreSQL", "HTML/CSS", "JavaScript", "Bootstrap"],
+      category: "Management System",
+      image: "/api/placeholder/400/300",
+      githubUrl: "https://github.com/poojashree-ks/library-management"
     },
     {
       id: "microservices-ecommerce",
@@ -52,18 +63,7 @@ export default function Projects() {
       technologies: ["Spring Boot", "Docker", "PostgreSQL", "Redis", "RabbitMQ", "JWT", "OAuth2"],
       category: "Web Application",
       image: "/api/placeholder/400/300",
-      githubUrl: "https://github.com/avis-enna/secure-ecommerce"
-    },
-    {
-      id: "library-management",
-      title: "Library Management System",
-      subtitle: "Database-driven application",
-      description: "Comprehensive library management system with book cataloging, member management, and advanced search functionality.",
-      longDescription: "Full-featured library management system with comprehensive book cataloging, member management, borrowing/returning functionality, and advanced search capabilities. Features automated fine calculations, reservation systems, and detailed reporting.",
-      technologies: ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript", "Bootstrap"],
-      category: "Management System",
-      image: "/api/placeholder/400/300",
-      githubUrl: "https://github.com/avis-enna/library-management"
+      githubUrl: "https://github.com/poojashree-ks/secure-ecommerce"
     }
   ];
 

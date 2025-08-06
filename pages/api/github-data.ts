@@ -14,13 +14,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     
     const githubData = {
       user: {
-        login: 'sivareddy',
-        name: 'Siva Reddy Venna',
+        login: 'poojashree-ks',
+        name: 'Poojashree K S',
         bio: 'Software Engineer Trainee @ Cisco Systems',
-        public_repos: 12,
-        followers: 24,
-        following: 18,
-        created_at: '2022-03-15T10:30:00Z',
+        public_repos: 8,
+        followers: 15,
+        following: 12,
+        created_at: '2023-01-15T10:30:00Z',
         updated_at: new Date().toISOString()
       },
       repositories: [

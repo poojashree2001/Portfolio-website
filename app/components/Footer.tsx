@@ -98,11 +98,11 @@ export default function Footer() {
               className="text-2xl font-cyber cyber-text font-bold"
               whileHover={{ scale: 1.05 }}
             >
-              &lt;SVR/&gt;
+              &lt;PKS/&gt;
             </motion.div>
             <p className="text-gray-300 leading-relaxed">
-              Backend Developer passionate about building secure, scalable server-side solutions 
-              and implementing robust cybersecurity practices.
+              Software Engineer Trainee passionate about building accessible, secure technology solutions 
+              and implementing automated testing practices for inclusive design.
             </p>
             <div className="flex items-center space-x-2 text-gray-400">
               <Code size={16} />
@@ -156,7 +156,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <div className="flex items-center space-x-2 text-gray-400 text-sm">
-            <span>© 2025 Venna Venkata Siva Reddy. Made with</span>
+            <span>© 2025 Poojashree K S. Made with</span>
             <Heart size={16} className="text-cyber-pink" />
             <span>and lots of coffee</span>
           </div>

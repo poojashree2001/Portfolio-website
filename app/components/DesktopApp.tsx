@@ -61,7 +61,7 @@ export default function DesktopApp({ onToggleUI }: DesktopAppProps) {
       {/* Desktop Header/Menu Bar */}
       <div className="absolute top-0 left-0 right-0 h-12 bg-black/20 backdrop-blur-sm border-b border-green-400/20 flex items-center justify-between px-4">
         <div className="flex items-center space-x-4">
-          <div className="text-green-400 font-mono text-sm font-bold">SivaOS</div>
+          <div className="text-green-400 font-mono text-sm font-bold">PoojashreeOS</div>
           <div className="text-green-400/60 text-xs font-mono">Portfolio Desktop Environment</div>
         </div>
         <div className="flex items-center space-x-4">
@@ -90,7 +90,7 @@ export default function DesktopApp({ onToggleUI }: DesktopAppProps) {
             className="mb-8"
           >
             <h1 className="text-4xl font-bold text-green-400 font-mono mb-2">
-              Welcome to SivaOS
+              Welcome to PoojashreeOS
             </h1>
             <p className="text-green-400/60 font-mono text-lg">
               Interactive Portfolio Desktop Environment

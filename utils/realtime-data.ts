@@ -315,8 +315,8 @@ export async function fetchGitHubData(): Promise<GitHubData> {
     // Return fallback data
     return {
       user: {
-        login: 'sivareddy',
-        name: 'Siva Reddy Venna',
+        login: 'poojashree-ks',
+        name: 'Poojashree K S',
         bio: 'Software Engineer Trainee @ Cisco Systems',
         public_repos: 0,
         followers: 0,

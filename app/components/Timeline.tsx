@@ -9,49 +9,33 @@ export default function Timeline() {
       id: 1,
       type: 'work',
       title: 'Software Engineer Trainee',
-      organization: 'Cisco Systems',
-      location: 'Bengaluru, India',
+      organization: 'Cisco Systems India Private Limited',
+      location: 'Bangalore, India',
       period: 'August 2024 – Present',
       description: [
-        'Monitor and support enterprise-level networks to ensure high availability and low latency across distributed systems',
-        'Develop and secure REST APIs for internal network automation tools using Java and Spring Boot frameworks',
-        'Perform comprehensive packet analysis and network issue resolution using Wireshark and advanced CLI tools',
-        'Assist in security policy configuration and assessments including ACLs, NAT, and IP Tables implementation',
-        'Script automation solutions for log parsing, configuration backups, and monitoring using Python and Bash'
+        'Developed and deployed automated accessibility testing suite using Python, ensuring compliance with WCAG and Section 508 for the Expressway product',
+        'Automated infrastructure health checks and validated TLS/SSH protocols, reducing manual tests and ensuring platform security baselines',
+        'Worked with QA and product teams to improve front-end accessibility, screen reader support, and web performance',
+        'Created detailed Confluence documentation and resolved JIRA tickets to support sprint planning and enterprise grade deliverables'
       ],
-      technologies: ['Java', 'Spring Boot', 'Python', 'Bash', 'Wireshark', 'Network Security'],
+      technologies: ['Python', 'WCAG', 'Section 508', 'TLS/SSH', 'Confluence', 'JIRA'],
       current: true
     },
     {
       id: 2,
-      type: 'work',
-      title: 'Trainee',
-      organization: 'Cognizant Technology Solutions',
-      location: 'Bengaluru, India',
-      period: 'November 2023 – May 2024',
-      description: [
-        'Completed comprehensive training in IBM Mainframe environments including z/OS, JCL, COBOL, and DB2',
-        'Contributed to process automation initiatives in legacy systems to enhance performance and reduce manual overhead',
-        'Gained expertise in enterprise system workflows and mainframe application development',
-        'Participated in code reviews and quality assurance processes for mainframe applications'
-      ],
-      technologies: ['z/OS', 'JCL', 'COBOL', 'DB2', 'TSO/ISPF', 'VSAM'],
-      current: false
-    },
-    {
-      id: 3,
       type: 'education',
-      title: 'Bachelor of Engineering (B.E.)',
-      organization: 'Sir M Visvesvaraya Institute of Technology',
-      location: 'Bengaluru, India',
-      period: '2020 – 2024',
+      title: 'Bachelor of Engineering - Information Science and Engineering',
+      organization: 'Atria Institute Of Technology',
+      location: 'Bangalore, India',
+      period: 'July 2019 – June 2023',
       description: [
-        'Electronics and Telecommunication Engineering',
-        'Specialized in IoT systems, network protocols, and embedded systems',
+        'GPA: 8.59',
+        'Courses: Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases',
+        'Specialized in software engineering, accessibility technologies, and IoT systems',
         'Published research paper on "IoT-Based Continuous Abiotic Factor Monitoring" in IJFMR',
-        'Developed comprehensive projects integrating hardware and software solutions'
+        'Developed hands-on expertise in AI, ML, and accessibility technologies through capstone projects'
       ],
-      technologies: ['IoT', 'Arduino', 'React', 'Java', 'Network Protocols'],
+      technologies: ['AI', 'ML', 'Data Structures', 'Algorithms', 'Networking', 'Databases'],
       current: false
     }
   ]

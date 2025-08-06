@@ -85,8 +85,8 @@ export default function Hero() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
           variants={itemVariants}
         >
-          <span className="block">Venna Venkata</span>
-          <span className="block cyber-text">Siva Reddy</span>
+          <span className="block">Poojashree</span>
+          <span className="block cyber-text">K S</span>
         </motion.h1>
 
         {/* Title */}
@@ -94,8 +94,8 @@ export default function Hero() {
           className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-8 font-light"
           variants={itemVariants}
         >
-          <span className="block">Network Engineer</span>
-          <span className="block text-cyber-purple">& Software Engineer Trainee at Cisco</span>
+          <span className="block">Software Engineer</span>
+          <span className="block text-cyber-purple">Trainee at Cisco Systems</span>
         </motion.div>
 
         {/* Description */}
@@ -103,9 +103,9 @@ export default function Hero() {
           className="text-lg text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
           variants={itemVariants}
         >
-          Experienced Network Engineer with expertise in network operations, backend development, 
-          and system automation. Currently serving as a Software Engineer Trainee at Cisco Systems 
-          with CCNA and CCCA certifications. Passionate about building scalable, secure, and reliable enterprise systems.
+          Detail-oriented Software Engineer Trainee with hands-on experience in Python automation, 
+          web development, accessibility compliance, and cloud-native solutions. Certified in AWS, 
+          CCNA and Cisco DevNet with expertise in building scalable, secure, and reliable enterprise systems.
         </motion.p>
 
         {/* CTA Buttons */}

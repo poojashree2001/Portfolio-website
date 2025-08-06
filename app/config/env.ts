@@ -3,7 +3,7 @@ import { EnvironmentConfig } from '../../types';
 // Environment configuration with validation
 export const env: EnvironmentConfig = {
   NODE_ENV: (process.env.NODE_ENV as 'development' | 'production' | 'test') || 'development',
-  NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://my-resume-o2do89dyl-sivavennas-projects.vercel.app',
+  NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://poojashree-portfolio.vercel.app',
   NEXT_PUBLIC_EMAILJS_SERVICE_ID: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
   NEXT_PUBLIC_EMAILJS_TEMPLATE_ID: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
@@ -53,30 +53,30 @@ export const apiEndpoints = {
 
 // External links
 export const externalLinks = {
-  github: 'https://github.com/avis-enna',
-  linkedin: 'https://linkedin.com/in/sivavenna',
-  email: 'mailto:your.email@example.com',
-  phone: 'tel:+1234567890',
+  github: 'https://github.com/poojashree-ks',
+  linkedin: 'https://linkedin.com/in/poojashree-k-s',
+  email: 'mailto:poojamanu567@gmail.com',
+  phone: 'tel:+919901002231',
 };
 
 // SEO configuration
 export const seoConfig = {
-  defaultTitle: 'Venna Venkata Siva Reddy - Full Stack Developer & Network Security Expert',
-  titleTemplate: '%s | Venna Venkata Siva Reddy',
-  defaultDescription: 'Innovative software engineer specializing in full-stack development, network security, and modern web technologies. Experienced with React, Next.js, Python, PostgreSQL, and cybersecurity solutions.',
+  defaultTitle: 'Poojashree K S - Software Engineer Trainee & Accessibility Expert',
+  titleTemplate: '%s | Poojashree K S',
+  defaultDescription: 'Software Engineer Trainee at Cisco specializing in Python automation, accessibility testing, and inclusive web development. Experienced with Python, Flask, Django, PostgreSQL, and accessibility compliance.',
   siteUrl: env.NEXT_PUBLIC_SITE_URL,
   defaultImage: '/profile-photo.png',
-  twitterHandle: '@sivavenna',
+  twitterHandle: '@poojashree_ks',
   keywords: [
-    'full stack developer',
     'software engineer',
-    'network security',
-    'React',
-    'Next.js',
-    'Python',
-    'PostgreSQL',
-    'cybersecurity',
+    'python automation',
+    'accessibility testing',
+    'WCAG compliance',
     'web development',
+    'Flask',
+    'Django',
+    'PostgreSQL',
+    'inclusive design',
     'Cisco',
     'portfolio'
   ],

@@ -3,43 +3,30 @@ import type { Metadata, Viewport } from 'next'
 import PerformanceMonitor from './components/PerformanceMonitor'
 
 export const metadata: Metadata = {
-  title: 'Venna Venkata Siva Reddy - Full Stack Developer & Network Security Expert',
-  description: 'Innovative software engineer specializing in full-stack development, network security, and modern web technologies. Experienced with React, Next.js, Python, PostgreSQL, and cybersecurity solutions.',
-  keywords: ['full stack developer', 'software engineer', 'network security', 'React', 'Next.js', 'Python', 'PostgreSQL', 'cybersecurity', 'web development', 'Cisco', 'portfolio'],
-  authors: [{ name: 'Venna Venkata Siva Reddy' }],
+  title: 'Poojashree K S - Software Engineer Trainee & Accessibility Expert',
+  description: 'Software Engineer Trainee at Cisco specializing in Python automation, accessibility testing, and inclusive web development.',
+  keywords: 'Software Engineer, Python Automation, Accessibility Testing, WCAG Compliance, Web Development, Cisco',
+  authors: [{ name: 'Poojashree K S' }],
   openGraph: {
-    title: 'Venna Venkata Siva Reddy - Full Stack Developer',
-    description: 'Innovative software engineer specializing in full-stack development and network security',
-    url: 'https://my-resume-o2do89dyl-sivavennas-projects.vercel.app',
-    siteName: 'Venna Venkata Siva Reddy Portfolio',
+    title: 'Poojashree K S - Software Engineer Trainee',
+    description: 'Software Engineer Trainee at Cisco specializing in Python automation, accessibility testing, and inclusive web development.',
+    url: 'https://poojashree-portfolio.vercel.app',
+    siteName: 'Poojashree K S Portfolio',
+    type: 'website',
     images: [
       {
         url: '/profile-photo.png',
         width: 1200,
         height: 630,
-        alt: 'Venna Venkata Siva Reddy - Full Stack Developer',
+        alt: 'Poojashree K S - Software Engineer Trainee',
       },
     ],
-    locale: 'en_US',
-    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Venna Venkata Siva Reddy - Full Stack Developer',
-    description: 'Innovative software engineer specializing in full-stack development and network security',
-    images: ['/profile-photo.png'],
-    creator: '@sivavenna',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+    title: 'Poojashree K S - Software Engineer Trainee',
+    description: 'Software Engineer Trainee at Cisco specializing in Python automation, accessibility testing, and inclusive web development.',
+    creator: '@poojashree_ks',
   },
 }
 

@@ -7,53 +7,54 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      title: "Cloud & DevOps",
-      skills: [
-        "Kubernetes", "Docker", "Helm", "FluxCD", "CI/CD", "AWS", "GCP"
-      ]
-    },
-    {
       title: "Programming Languages",
       skills: [
-        "Java", "Python", "JavaScript", "SQL", "Shell Scripting", "COBOL"
+        "Python", "JavaScript", "SQL", "Java", "HTML", "CSS"
       ]
     },
     {
-      title: "Backend",
+      title: "Web Technologies",
       skills: [
-        "Spring Boot", "REST APIs", "SOAP Web Services", "Microservices"
+        "HTML", "CSS", "JavaScript", "React", "Flask", "Django"
       ]
     },
     {
-      title: "Frontend",
+      title: "Frameworks & Libraries",
       skills: [
-        "React", "JavaScript", "HTML", "CSS"
+        "TensorFlow", "Django", "Flask", "Selenium", "axe-core", "BeautifulSoup4"
       ]
     },
     {
       title: "Databases",
       skills: [
-        "SQL", "MongoDB", "IBM DB2", "VSAM"
-      ]
-    },
-    {
-      title: "Mainframe",
-      skills: [
-        "JCL", "COBOL"
+        "PostgreSQL", "MySQL", "SQL Database Design"
       ]
     },
     {
       title: "Networking",
       skills: [
-        "TCP/IP", "HTTP", "Network Device Configuration & Troubleshooting"
+        "TCP/IP", "Routing & Switching", "VLAN", "QoS", "SIP", "ARP", "IP Tables"
+      ]
+    },
+    {
+      title: "Tools & Platforms",
+      skills: [
+        "Git", "Docker", "Jira", "Confluence", "GitHub Copilot", "Axe", "WAVE"
+      ]
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: [
+        "AWS", "Linux", "Windows", "Automation Scripting", "CI/CD"
       ]
     }
   ];
 
   const certifications = [
-    "Cisco Certified DevNet Associate (DEVASC)",
-    "Cisco Certified Network Associate (CCNA)",
-    "Cisco Certified Cybersecurity Associate (CCCA)"
+    "Certified AWS Cloud Practitioner (Valid: 2024–2027)",
+    "Implementing and Administering Cisco Solutions (2024)",
+    "Cisco Certified Network Associate (CCNA) (2025)",
+    "Cisco Certified DevNet Associate (2025)"
   ];
 
   return (

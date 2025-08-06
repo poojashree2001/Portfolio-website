@@ -5,42 +5,49 @@ import { motion } from 'framer-motion'
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'Networking & Infrastructure',
+      title: 'Programming Languages',
       skills: [
-        { name: 'TCP/IP', level: 92 },
-        { name: 'Routing & Switching', level: 90 },
-        { name: 'VLANs', level: 88 },
-        { name: 'ACLs & Security', level: 85 },
-        { name: 'OSPF', level: 82 },
-        { name: 'BGP', level: 75 },
-        { name: 'NAT & IP Tables', level: 88 },
-        { name: 'Network Troubleshooting', level: 90 },
-      ]
-    },
-    {
-      title: 'Programming & Development',
-      skills: [
-        { name: 'Python', level: 88 },
-        { name: 'Java', level: 85 },
-        { name: 'Spring Boot', level: 82 },
-        { name: 'Shell Scripting (Bash)', level: 90 },
-        { name: 'C/C++', level: 75 },
-        { name: 'REST APIs', level: 88 },
+        { name: 'Python', level: 90 },
+        { name: 'JavaScript', level: 85 },
         { name: 'SQL', level: 85 },
-        { name: 'React', level: 80 },
+        { name: 'Java', level: 80 },
+        { name: 'HTML/CSS', level: 88 },
       ]
     },
     {
-      title: 'Tools & Technologies',
+      title: 'Frameworks & Technologies',
       skills: [
-        { name: 'Wireshark', level: 92 },
-        { name: 'Cisco Packet Tracer', level: 90 },
-        { name: 'GNS3', level: 85 },
-        { name: 'Linux (Ubuntu/CentOS)', level: 88 },
-        { name: 'Git & DevOps', level: 82 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'IBM DB2', level: 75 },
-        { name: 'Mainframe (z/OS, JCL)', level: 70 },
+        { name: 'TensorFlow', level: 85 },
+        { name: 'Django', level: 82 },
+        { name: 'Flask', level: 88 },
+        { name: 'Selenium', level: 90 },
+        { name: 'axe-core', level: 92 },
+        { name: 'BeautifulSoup4', level: 85 },
+      ]
+    },
+    {
+      title: 'Tools & Platforms',
+      skills: [
+        { name: 'Git', level: 90 },
+        { name: 'Docker', level: 82 },
+        { name: 'Jira', level: 88 },
+        { name: 'Confluence', level: 85 },
+        { name: 'GitHub Copilot', level: 90 },
+        { name: 'Axe', level: 95 },
+        { name: 'WAVE', level: 92 },
+        { name: 'AWS', level: 85 },
+      ]
+    },
+    {
+      title: 'Networking & Security',
+      skills: [
+        { name: 'TCP/IP', level: 88 },
+        { name: 'Routing & Switching', level: 85 },
+        { name: 'VLAN', level: 82 },
+        { name: 'QoS', level: 80 },
+        { name: 'ARP', level: 85 },
+        { name: 'IP Tables', level: 82 },
+        { name: 'TLS/SSH Protocols', level: 88 },
       ]
     },
   ]

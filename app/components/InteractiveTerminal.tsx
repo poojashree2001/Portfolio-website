@@ -40,11 +40,11 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
     history: string[];
     isActive: boolean;
   }>>({
-    about: { input: "", history: ["$ whoami", "sivareddy - Software Engineer Trainee @ Cisco"], isActive: false },
+    about: { input: "", history: ["$ whoami", "poojashree - Software Engineer Trainee @ Cisco"], isActive: false },
     skills: { input: "", history: ["$ python --version", "Python 3.11+"], isActive: false },
-    experience: { input: "", history: ["$ ps aux | grep cisco", "cisco    1234  enterprise_solutions"], isActive: false },
-    projects: { input: "", history: ["$ ls -la ~/projects/", "drwxr-xr-x  network_automation/"], isActive: false },
-    contact: { input: "", history: ["$ ping sivareddy.dev", "PING successful: Available for opportunities"], isActive: false }
+    experience: { input: "", history: ["$ ps aux | grep cisco", "cisco    1234  accessibility_testing"], isActive: false },
+    projects: { input: "", history: ["$ ls -la ~/projects/", "drwxr-xr-x  smart_glasses/"], isActive: false },
+    contact: { input: "", history: ["$ ping poojashree.dev", "PING successful: Available for opportunities"], isActive: false }
   });
 
   // Interactive Mini Terminal Component
@@ -130,9 +130,9 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
       content: (
         <div className="text-green-400/80 text-sm">
           <p className="text-green-300 font-semibold mb-2">About Me</p>
-          <p>Experienced Network Engineer with expertise in TCP/IP, routing, switching, and Linux system administration.</p>
-          <p>Currently serving as a Software Engineer Trainee at Cisco Systems with CCNA and CCCA certifications.</p>
-          <p>Passionate about building scalable, secure, and reliable enterprise systems.</p>
+          <p>Detail-oriented Software Engineer Trainee with hands-on experience in Python automation, web development, and accessibility compliance.</p>
+          <p>Currently working at Cisco Systems, developing automated accessibility testing suites and ensuring WCAG compliance.</p>
+          <p>Certified in AWS, CCNA and Cisco DevNet with expertise in building accessible, secure technology solutions.</p>
           
           <MiniTerminal sectionId="about" title="about.terminal" />
         </div>
@@ -151,32 +151,31 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           <p className="text-green-300 font-semibold mb-4">Technical Skills</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <p className="text-green-300 font-semibold mb-3">Networking:</p>
+              <p className="text-green-300 font-semibold mb-3">Programming Languages:</p>
               <div className="space-y-2">
-                <p>• TCP/IP, OSPF, BGP</p>
-                <p>• VLANs, ACLs, VPN</p>
-                <p>• Cisco IOS, Network Troubleshooting</p>
-                <p>• CCNA, CCCA Certified</p>
-                <p>• Network Security & Monitoring</p>
+                <p>• Python, JavaScript, SQL</p>
+                <p>• Java, HTML, CSS</p>
+                <p>• Web Technologies</p>
+                <p>• Automation Scripting</p>
               </div>
             </div>
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <p className="text-green-300 font-semibold mb-3">Programming:</p>
+              <p className="text-green-300 font-semibold mb-3">Frameworks & Tools:</p>
               <div className="space-y-2">
-                <p>• Python, Java, Spring Boot</p>
-                <p>• React, JavaScript, TypeScript</p>
-                <p>• HTML/CSS, Tailwind CSS</p>
-                <p>• RESTful APIs, GraphQL</p>
-                <p>• Object-Oriented Programming</p>
+                <p>• TensorFlow, Django, Flask</p>
+                <p>• Selenium, axe-core</p>
+                <p>• Git, Docker, Jira</p>
+                <p>• GitHub Copilot, Axe, WAVE</p>
+                <p>• Accessibility Testing</p>
               </div>
             </div>
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <p className="text-green-300 font-semibold mb-3">DevOps & Tools:</p>
+              <p className="text-green-300 font-semibold mb-3">Cloud & Networking:</p>
               <div className="space-y-2">
-                <p>• Linux, Git, Docker</p>
-                <p>• MongoDB, PostgreSQL</p>
-                <p>• AWS, Cloud Infrastructure</p>
-                <p>• CI/CD, Automation</p>
+                <p>• AWS Cloud Practitioner</p>
+                <p>• CCNA, DevNet Associate</p>
+                <p>• TCP/IP, Routing & Switching</p>
+                <p>• TLS/SSH Protocols</p>
                 <p>• System Administration</p>
               </div>
             </div>
@@ -199,16 +198,18 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           <p className="text-green-300 font-semibold mb-2">Professional Experience</p>
           <div className="space-y-4">
             <div>
-              <p className="text-green-300 font-semibold">Cisco Systems</p>
+              <p className="text-green-300 font-semibold">Cisco Systems India Private Limited</p>
               <p>Software Engineer Trainee (Aug 2024 - Present)</p>
-              <p>• Working on enterprise networking solutions</p>
-              <p>• Developing software applications for network management</p>
+              <p>• Developed automated accessibility testing suite using Python</p>
+              <p>• Automated infrastructure health checks and TLS/SSH protocol validation</p>
+              <p>• Worked with QA teams to improve accessibility and web performance</p>
+              <p>• Created Confluence documentation and resolved JIRA tickets</p>
             </div>
             <div>
-              <p className="text-green-300 font-semibold">Cognizant Technology Solutions</p>
-              <p>Trainee (Nov 2023 - May 2024)</p>
-              <p>• Gained experience in enterprise software development</p>
-              <p>• Worked on various client projects and training programs</p>
+              <p className="text-green-300 font-semibold">Education</p>
+              <p>Atria Institute Of Technology (July 2019 - June 2023)</p>
+              <p>• Bachelor of Engineering - Information Science and Engineering</p>
+              <p>• GPA: 8.59</p>
             </div>
           </div>
           
@@ -229,26 +230,26 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           <p className="text-green-300 font-semibold mb-4">Featured Projects</p>
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <h4 className="text-green-300 font-semibold mb-2">Network Automation Tool</h4>
-              <p className="text-green-400/70 text-xs mb-3">Python, Cisco IOS, Network Management</p>
+              <h4 className="text-green-300 font-semibold mb-2">Smart Glasses for Visually Impaired</h4>
+              <p className="text-green-400/70 text-xs mb-3">IoT, Python, TensorFlow, MobileNet SSD</p>
               <p className="text-green-400/80 text-sm">
-                Automated network configuration and monitoring tool for enterprise environments.
-                Features include real-time network discovery, configuration backup, and automated troubleshooting.
+                Wearable assistive device for real-time object detection, OCR-based text reading, 
+                obstacle alerts, and voice/tactile feedback. Published research in TIJER.
               </p>
             </div>
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <h4 className="text-green-300 font-semibold mb-2">Portfolio Website</h4>
-              <p className="text-green-400/70 text-xs mb-3">React, Next.js, Tailwind CSS</p>
+              <h4 className="text-green-300 font-semibold mb-2">Accessibility Testing Web App</h4>
+              <p className="text-green-400/70 text-xs mb-3">Python, Flask, Selenium, axe-core</p>
               <p className="text-green-400/80 text-sm">
-                Dual-UI portfolio website with modern and terminal-inspired interfaces.
-                Features interactive terminal with Linux commands and draggable window management.
+                Flask-based web application for WCAG 2.1 AA compliance testing. Features 
+                cross-browser testing, real-time reporting, and remediation suggestions.
               </p>
             </div>
             <div className="border border-green-400/20 p-4 rounded bg-black/20">
-              <h4 className="text-green-300 font-semibold mb-2">System Monitor</h4>
-              <p className="text-green-400/70 text-xs mb-3">Python, Linux, System Administration</p>
+              <h4 className="text-green-300 font-semibold mb-2">Library Management System</h4>
+              <p className="text-green-400/70 text-xs mb-3">Python, Flask, PostgreSQL, SQLite</p>
               <p className="text-green-400/80 text-sm">
-                Real-time system monitoring and alerting tool for Linux servers.
+                Comprehensive database-driven application with CRUD operations, member management,
                 Monitors CPU, memory, disk usage, and network performance with custom alerts.
               </p>
             </div>
@@ -295,12 +296,12 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           <p className="text-green-300 font-semibold mb-2">Contact Information</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <p>📧 vsivareddy.venna@gmail.com</p>
-              <p>📱 +91 93989 61541</p>
+              <p>📧 poojamanu567@gmail.com</p>
+              <p>📱 +91-9901002231</p>
             </div>
             <div>
-              <p>🔗 linkedin.com/in/sivavenna</p>
-              <p>📍 Bengaluru, India</p>
+              <p>🔗 linkedin.com/in/poojashree-k-s</p>
+              <p>📍 Bangalore, India</p>
             </div>
           </div>
           
@@ -318,37 +319,37 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
     // Section-specific commands
     const sectionCommands: Record<string, Record<string, string[]>> = {
       about: {
-        whoami: ["sivareddy - Software Engineer Trainee @ Cisco Systems"],
-        pwd: ["/home/sivareddy/about"],
-        cat: ["CCNA (Cisco Certified Network Associate)", "CCCA (Cisco Certified in Cybersecurity Associate)"],
-        echo: ["Building scalable enterprise systems"],
-        uname: ["Linux sivareddy-dev 5.15.0 #1 SMP x86_64 GNU/Linux"]
+        whoami: ["poojashree - Software Engineer Trainee @ Cisco Systems"],
+        pwd: ["/home/poojashree/about"],
+        cat: ["AWS Cloud Practitioner (Valid: 2024–2027)", "CCNA (Cisco Certified Network Associate)", "DevNet Associate"],
+        echo: ["Building accessible, scalable technology solutions"],
+        uname: ["Linux poojashree-dev 5.15.0 #1 SMP x86_64 GNU/Linux"]
       },
       skills: {
-        python: ["Python 3.11.5", "Available packages: requests, flask, django, pandas"],
+        python: ["Python 3.11.5", "Available packages: tensorflow, flask, django, selenium"],
         java: ["Java 17.0.2", "Spring Boot 3.1+"],
-        npm: ["React 18.2+", "TypeScript 5.0+", "Next.js 14+"],
+        npm: ["JavaScript ES2023", "HTML5, CSS3", "Web Technologies"],
         docker: ["Docker version 24.0.6"],
-        aws: ["AWS CLI version 2.13+"],
-        cisco: ["CCNA Certified", "IOS experience: 5+ years"]
+        aws: ["AWS CLI version 2.13+", "AWS Cloud Practitioner Certified"],
+        cisco: ["CCNA Certified", "DevNet Associate", "Networking experience: 3+ years"]
       },
       experience: {
-        ps: ["cisco    1234  0.0  0.1  enterprise_solutions", "cognizant 5678  0.0  0.2  training_programs"],
-        uptime: ["up 0.4 years, 2 companies, 1 engineer learning"],
-        history: ["2024-08 Started at Cisco Systems", "2023-11 Trainee at Cognizant"],
-        env: ["CURRENT_ROLE=Software Engineer Trainee", "COMPANY=Cisco Systems", "LOCATION=Bengaluru"]
+        ps: ["cisco    1234  0.0  0.1  accessibility_testing", "atria     5678  0.0  0.2  computer_science"],
+        uptime: ["up 0.4 years, 1 company, 1 engineer learning"],
+        history: ["2024-08 Started at Cisco Systems", "2023-06 Graduated from Atria Institute"],
+        env: ["CURRENT_ROLE=Software Engineer Trainee", "COMPANY=Cisco Systems", "LOCATION=Bangalore"]
       },
       projects: {
-        ls: ["network_automation/", "portfolio_website/", "system_monitor/", "topology_mapper/"],
-        git: ["a1b2c3d Terminal UI enhancements", "d4e5f6g Network automation improvements", "g7h8i9j Security audit features"],
-        tree: ["├── network_automation/", "├── portfolio_website/", "├── system_monitor/", "└── security_tools/"],
-        du: ["1.2G  network_automation/", "800M  portfolio_website/", "500M  system_monitor/"]
+        ls: ["smart_glasses/", "accessibility_testing/", "library_management/", "ecommerce_platform/"],
+        git: ["a1b2c3d Smart glasses for visually impaired", "d4e5f6g Accessibility testing improvements", "g7h8i9j Library management features"],
+        tree: ["├── smart_glasses/", "├── accessibility_testing/", "├── library_management/", "└── ecommerce_platform/"],
+        du: ["1.2G  smart_glasses/", "800M  accessibility_testing/", "500M  library_management/"]
       },
       contact: {
-        ping: ["PING successful: Available for opportunities", "64 bytes from sivareddy.dev: icmp_seq=1 time=0.1ms"],
-        curl: ['"Siva Reddy Venna"', '"Software Engineer"', '"Open to work"'],
-        whois: ["Location: Bengaluru, India", "Email: vsivareddy.venna@gmail.com", "Status: Available"],
-        ssh: ["Connection established", "Welcome to sivareddy@portfolio.dev"]
+        ping: ["PING successful: Available for opportunities", "64 bytes from poojashree.dev: icmp_seq=1 time=0.1ms"],
+        curl: ['"Poojashree K S"', '"Software Engineer Trainee"', '"Open to work"'],
+        whois: ["Location: Bangalore, India", "Email: poojamanu567@gmail.com", "Status: Available"],
+        ssh: ["Connection established", "Welcome to poojashree@portfolio.dev"]
       }
     };
 
@@ -449,7 +450,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
 
     const initMessages = [
       "╔═══════════════════════════════════════════════════════════════════════════════════╗",
-      "║                        Welcome to Siva's Interactive Terminal                     ║",
+      "║                      Welcome to Poojashree's Interactive Terminal                ║",
       "║                           Portfolio System v2.0                                  ║",
       "╚═══════════════════════════════════════════════════════════════════════════════════╝",
       "",
@@ -702,15 +703,15 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
             // When in projects directory, list the projects
             if (longFormat) {
               let files = [
-                "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 network-automation/",
-                "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 topology-discovery/",
-                "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 security-monitor/",
-                "-rw-r--r--  1 sivareddy sivareddy  1024 Jul 14 12:00 README.md"
+                "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 network-automation/",
+                "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 topology-discovery/",
+                "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 security-monitor/",
+                "-rw-r--r--  1 poojashree poojashree  1024 Jul 14 12:00 README.md"
               ];
               if (showHidden) {
                 files = [
-                  "drwxr-xr-x  5 sivareddy sivareddy  4096 Jul 14 12:00 ./",
-                  "drwxr-xr-x  6 sivareddy sivareddy  4096 Jul 14 12:00 ../",
+                  "drwxr-xr-x  5 poojashree poojashree  4096 Jul 14 12:00 ./",
+                  "drwxr-xr-x  6 poojashree poojashree  4096 Jul 14 12:00 ../",
                   ...files
                 ];
               }
@@ -760,15 +761,15 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
         if (listPath === "projects" || listPath === "~/projects") {
           if (longFormat) {
             let files = [
-              "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 network-automation/",
-              "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 topology-discovery/",
-              "drwxr-xr-x  3 sivareddy sivareddy  4096 Jul 14 12:00 security-monitor/",
-              "-rw-r--r--  1 sivareddy sivareddy  1024 Jul 14 12:00 README.md"
+              "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 network-automation/",
+              "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 topology-discovery/",
+              "drwxr-xr-x  3 poojashree poojashree  4096 Jul 14 12:00 security-monitor/",
+              "-rw-r--r--  1 poojashree poojashree  1024 Jul 14 12:00 README.md"
             ];
             if (showHidden) {
               files = [
-                "drwxr-xr-x  5 sivareddy sivareddy  4096 Jul 14 12:00 ./",
-                "drwxr-xr-x  6 sivareddy sivareddy  4096 Jul 14 12:00 ../",
+                "drwxr-xr-x  5 poojashree poojashree  4096 Jul 14 12:00 ./",
+                "drwxr-xr-x  6 poojashree poojashree  4096 Jul 14 12:00 ../",
                 ...files
               ];
             }
@@ -812,15 +813,15 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           if (currentPath === "~") {
             if (longFormat) {
               let files = [
-                "-rw-r--r--  1 sivareddy sivareddy  2048 Jul 14 12:00 about.txt",
-                "-rw-r--r--  1 sivareddy sivareddy  1024 Jul 14 12:00 contact.info", 
-                "-rw-r--r--  1 sivareddy sivareddy  3072 Jul 14 12:00 experience.log",
-                "drwxr-xr-x  5 sivareddy sivareddy  4096 Jul 14 12:00 projects/",
-                "-rw-r--r--  1 sivareddy sivareddy  1536 Jul 14 12:00 skills.json"
+                "-rw-r--r--  1 poojashree poojashree  2048 Jul 14 12:00 about.txt",
+                "-rw-r--r--  1 poojashree poojashree  1024 Jul 14 12:00 contact.info", 
+                "-rw-r--r--  1 poojashree poojashree  3072 Jul 14 12:00 experience.log",
+                "drwxr-xr-x  5 poojashree poojashree  4096 Jul 14 12:00 projects/",
+                "-rw-r--r--  1 poojashree poojashree  1536 Jul 14 12:00 skills.json"
               ];
               if (showHidden) {
                 files = [
-                  "drwxr-xr-x  6 sivareddy sivareddy  4096 Jul 14 12:00 ./",
+                  "drwxr-xr-x  6 poojashree poojashree  4096 Jul 14 12:00 ./",
                   "drwxr-xr-x  3 root     root       4096 Jul 14 10:00 ../",
                   ...files
                 ];
@@ -1089,7 +1090,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           if (!targetPath) {
             setCurrentPath("~");
             output = [`Changed directory to: ~`];
-          } else if (targetPath === "~" || targetPath === "~/" || targetPath === "/home/sivareddy") {
+          } else if (targetPath === "~" || targetPath === "~/" || targetPath === "/home/poojashree") {
             setCurrentPath("~");
             output = [`Changed directory to: ~`];
           } else if (targetPath === ".") {
@@ -1154,7 +1155,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
         break;
 
       case "whoami":
-        output = ["sivareddy"];
+        output = ["poojashree"];
         break;
 
       case "date":
@@ -1234,7 +1235,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
           "Siva's Interactive Portfolio Terminal v2.0",
           "Built with Next.js, React, TypeScript, and Tailwind CSS",
           "Features: Draggable windows, Mac-style controls, Interactive terminal",
-          "© 2024 Siva Reddy"
+          "© 2024 Poojashree K S"
         ];
         break;
 
@@ -1755,7 +1756,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
             <div className="w-3 h-3 bg-red-500 rounded-full cursor-pointer hover:bg-red-400 transition-colors"></div>
             <div className="w-3 h-3 bg-yellow-500 rounded-full cursor-pointer hover:bg-yellow-400 transition-colors"></div>
             <div className="w-3 h-3 bg-green-500 rounded-full cursor-pointer hover:bg-green-400 transition-colors"></div>
-            <span className="text-green-400 font-mono text-sm ml-4">terminal@sivareddy:{currentPath}$</span>
+            <span className="text-green-400 font-mono text-sm ml-4">terminal@poojashree:{currentPath}$</span>
           </div>
           <motion.button
             onClick={onToggleUI}
@@ -1787,7 +1788,7 @@ export default function InteractiveTerminal({ onToggleUI }: InteractiveTerminalP
                 transition={{ duration: 2, delay: 1 }}
                 className="text-green-300/80 text-lg font-mono border-r-2 border-green-400 pr-2 overflow-hidden whitespace-nowrap"
               >
-                Welcome to Siva's Interactive Terminal Portfolio
+                Welcome to Poojashree's Interactive Terminal Portfolio
               </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}

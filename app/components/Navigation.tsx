@@ -26,8 +26,8 @@ export default function Navigation() {
   ]
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/avis-enna', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/sivavenna', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/poojashree-ks', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/poojashree-k-s', label: 'LinkedIn' },
     { icon: Mail, href: '#contact', label: 'Email' },
   ]
 
@@ -46,7 +46,7 @@ export default function Navigation() {
           className="text-2xl font-cyber cyber-text font-bold"
           whileHover={{ scale: 1.05 }}
         >
-          &lt;SVR/&gt;
+          &lt;PKS/&gt;
         </motion.div>
 
         {/* Desktop Navigation */}

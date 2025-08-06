@@ -35,10 +35,10 @@ export default function Hero() {
         <div className="mb-12">
           <div className="relative">
             <h1 className={`text-6xl md:text-7xl font-light tracking-[0.2em] mb-6 transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-stone-800'}`}>
-              VENNA VENKATA
+              POOJASHREE
             </h1>
             <h2 className={`text-3xl md:text-4xl font-light tracking-[0.3em] mb-8 transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-stone-600'}`}>
-              SIVA REDDY
+              K S
             </h2>
           </div>
           <div className={`w-32 h-px mx-auto mb-8 transition-colors duration-300 ${isDarkMode ? 'bg-white' : 'bg-stone-400'}`}></div>
@@ -49,8 +49,8 @@ export default function Hero() {
             {titles[currentTitle]}
           </h2>
           <p className={`text-base md:text-lg max-w-2xl mx-auto leading-relaxed transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-stone-600'}`}>
-            Distinguished software engineer specializing in cloud-native architectures and enterprise systems.
-            Currently architecting scalable solutions at Cisco Systems with expertise in Kubernetes and modern development practices.
+            Detail-oriented Software Engineer Trainee with hands-on experience in Python automation, web development, 
+            accessibility compliance, and cloud-native solutions; passionate about building inclusive technology solutions.
           </p>
         </div>
 

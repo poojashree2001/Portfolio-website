@@ -11,7 +11,7 @@ export default function Navigation() {
     <nav className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-sm transition-colors duration-300 ${isDarkMode ? 'bg-black/50' : 'bg-white/50'}`}>
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center py-6">
-          <div className={`text-xl font-light tracking-[0.2em] transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-stone-800'}`}>V.V.S.R</div>
+          <div className={`text-xl font-light tracking-[0.2em] transition-colors duration-300 ${isDarkMode ? 'text-white' : 'text-stone-800'}`}>P.K.S</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-10">

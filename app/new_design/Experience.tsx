@@ -8,63 +8,52 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Software Engineer",
-      company: "Cisco Systems",
-      location: "Bengaluru, India",
+      title: "Software Engineer Trainee",
+      company: "Cisco Systems India Private Limited",
+      location: "Bangalore, India",
       period: "August 2024 - Present",
       description: [
-        "Led the migration of the IoT Control Center's core services from Docker to a scalable Kubernetes (k8s) architecture, significantly improving service reliability and deployment velocity",
-        "Managed Kubernetes applications using Helm charts for packaging and deployed a GitOps workflow with FluxCD for automated, declarative continuous delivery",
-        "Developed and maintained resilient Java Spring Boot microservices for the HLR-level network service, designing and exposing both REST and SOAP APIs",
-        "Implemented Single Sign-On (SSO) for new services using Duo, enhancing security and streamlining user access",
-        "Built and supported frontend modules in React for internal service management dashboards",
-        "Leveraged CCNA certification to collaborate with the network engineering team on troubleshooting and configuring network devices",
-        "Developed a data analytics tool by integrating with Jira APIs to pull, model, and visualize project data, enabling predictive insights into team productivity"
+        "Developed and deployed automated accessibility testing suite using Python, ensuring compliance with WCAG and Section 508 for the Expressway product",
+        "Automated infrastructure health checks and validated TLS/SSH protocols, reducing manual tests and ensuring platform security baselines",
+        "Worked with QA and product teams to improve front-end accessibility, screen reader support, and web performance",
+        "Created detailed Confluence documentation and resolved JIRA tickets to support sprint planning and enterprise grade deliverables"
       ],
-      technologies: ["Kubernetes", "Docker", "Helm", "FluxCD", "Java", "Spring Boot", "React", "REST APIs", "SOAP", "SSO", "Jira APIs"]
-    },
-    {
-      id: 2,
-      title: "Trainee",
-      company: "Cognizant Technology Solutions",
-      location: "Bengaluru, India", 
-      period: "November 2023 - May 2024",
-      description: [
-        "Maintained and enhanced a large-scale mainframe banking application, gaining deep experience in enterprise-level systems",
-        "Developed and modified COBOL programs to implement new business logic and functionality changes",
-        "Automated and optimized batch processing jobs using JCL, debugged JCL failures, and implemented changes to system-generated reports",
-        "Worked extensively with core mainframe technologies including DB2 for database management and VSAM for indexed data storage"
-      ],
-      technologies: ["COBOL", "JCL", "DB2", "VSAM", "Mainframe", "Banking Systems"]
+      technologies: ["Python", "WCAG", "Section 508", "TLS/SSH", "Accessibility Testing", "Confluence", "JIRA", "Quality Assurance"]
     }
   ];
 
   const education = {
-    degree: "Bachelor of Engineering (B.E.)",
-    field: "Electronics and Telecommunication Engineering",
-    institution: "Sir M Visvesvaraya Institute of Technology",
-    location: "Bengaluru, India",
-    period: "",
-    cgpa: ""
+    degree: "Bachelor of Engineering",
+    field: "Information Science and Engineering",
+    institution: "Atria Institute Of Technology",
+    location: "Bangalore, India",
+    period: "July 2019 - June 2023",
+    cgpa: "8.59"
   };
 
   const certifications = [
     {
-      name: "Cisco Certified DevNet Associate (DEVASC)",
+      name: "Certified AWS Cloud Practitioner",
+      issuer: "Amazon",
+      year: "2024",
+      status: "Valid: 2024–2027"
+    },
+    {
+      name: "Implementing and Administering Cisco Solutions",
       issuer: "Cisco",
-      year: "",
+      year: "2024",
       status: "Certified"
     },
     {
       name: "Cisco Certified Network Associate (CCNA)",
       issuer: "Cisco",
-      year: "",
+      year: "2025",
       status: "Certified"
     },
     {
-      name: "Cisco Certified Cybersecurity Associate (CCCA)",
+      name: "Cisco Certified DevNet Associate",
       issuer: "Cisco", 
-      year: "",
+      year: "2025",
       status: "Certified"
     }
   ];

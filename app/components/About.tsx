@@ -50,7 +50,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-2">Venna Venkata Siva Reddy</h3>
+              <h3 className="text-2xl font-bold mb-2">Poojashree K S</h3>
               <p className="text-cyber-blue font-cyber">Software Engineer Trainee @ Cisco</p>
             </div>
 
@@ -82,31 +82,28 @@ export default function About() {
 
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I'm a passionate Network Engineer with hands-on experience in network operations, 
-                backend development, and system automation. Currently working at Cisco Systems 
-                as a Software Engineer Trainee, where I monitor and support enterprise-level networks 
-                to ensure high availability and low latency.
+                I'm a detail-oriented Software Engineer Trainee with hands-on experience in Python automation, 
+                web development, accessibility compliance, and cloud-native solutions. Currently working at 
+                Cisco Systems, where I develop and deploy automated accessibility testing suites and ensure 
+                compliance with WCAG and Section 508 for enterprise products.
               </p>
               
               <p>
-                My experience includes developing and securing REST APIs for internal network automation 
-                tools using Java and Spring Boot frameworks. I perform comprehensive packet analysis 
-                and network issue resolution using Wireshark and advanced CLI tools, while assisting 
-                in security policy configuration and assessments.
+                My experience includes automating infrastructure health checks and validating TLS/SSH protocols, 
+                reducing manual tests and ensuring platform security baselines. I work collaboratively with QA 
+                and product teams to improve front-end accessibility, screen reader support, and web performance.
               </p>
               
               <p>
-                I have a strong foundation in TCP/IP, routing, switching, and Linux system administration. 
-                My expertise extends to scripting automation solutions for log parsing, configuration 
-                backups, and monitoring using Python and Bash. I also have experience with IBM Mainframe 
-                environments from my previous role at Cognizant Technology Solutions.
+                I have a strong foundation in Python, JavaScript, SQL, and Java with expertise in web technologies 
+                like HTML, CSS, and frameworks including TensorFlow and Django. My technical skills extend to 
+                networking protocols (TCP/IP, Routing & Switching, VLAN) and tools like Git, Docker, Jira, and GitHub Copilot.
               </p>
               
               <p>
-                When I'm not working, you'll find me pursuing additional certifications like the 
-                Cisco Certified DevNet Associate (DEVASC), exploring new networking technologies, 
-                or contributing to IoT projects. I believe in continuous learning and staying 
-                updated with the latest industry trends.
+                When I'm not working, you'll find me contributing to projects like Smart Glasses for the Visually 
+                Impaired using IoT and TensorFlow, or developing accessibility testing web applications. I believe 
+                in continuous learning and building inclusive, accessible technology solutions.
               </p>
             </div>
 
@@ -114,12 +111,12 @@ export default function About() {
               <h3 className="text-xl font-semibold text-cyber-blue">What I Do</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  'Network Engineering',
+                  'Python Automation',
+                  'Web Development',
+                  'Accessibility Testing',
+                  'Cloud-Native Solutions',
                   'REST API Development',
-                  'Enterprise Network Support',
-                  'Security Policy Configuration',
-                  'Automation Scripting',
-                  'Packet Analysis & Troubleshooting',
+                  'Security & Compliance',
                 ].map((skill, index) => (
                   <motion.div
                     key={skill}
@@ -137,10 +134,10 @@ export default function About() {
               <h3 className="text-xl font-semibold text-cyber-purple">Certifications</h3>
               <div className="grid grid-cols-1 gap-3">
                 {[
-                  'Cisco Certified Network Associate (CCNA)',
-                  'Cisco Certified Cybersecurity Associate (CCCA)',
-                  'Microsoft Certified: Security, Compliance & Identity',
-                  'Currently Pursuing: Cisco Certified DevNet Associate (DEVASC)',
+                  'Certified AWS Cloud Practitioner - Valid: 2024–2027',
+                  'Implementing and Administering Cisco Solutions - 2024',
+                  'Cisco Certified Network Associate (CCNA) - 2025',
+                  'Cisco Certified DevNet Associate - 2025',
                 ].map((cert, index) => (
                   <motion.div
                     key={cert}
