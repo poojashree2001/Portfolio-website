@@ -70,14 +70,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Side Service Label */}
-      <div className="fixed right-8 top-1/2 transform -translate-y-1/2 rotate-90 origin-center">
-        <div className="flex items-center space-x-6">
-          <span className={`text-xs font-light tracking-[0.2em] transition-colors duration-300 ${isDarkMode ? 'text-gray-500' : 'text-stone-500'}`}>PORTFOLIO</span>
-          <div className={`w-8 h-px transition-colors duration-300 ${isDarkMode ? 'bg-gray-700' : 'bg-stone-400'}`}></div>
-          <span className={`text-xs font-light tracking-[0.2em] transition-colors duration-300 ${isDarkMode ? 'text-gray-400' : 'text-stone-500'}`}>MMXXIV</span>
-        </div>
-      </div>
+
     </section>
   );
 }
